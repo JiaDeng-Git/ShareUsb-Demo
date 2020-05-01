@@ -1,0 +1,2 @@
+rootProject.name='ShareUsb-Demo'
+include ':app'
