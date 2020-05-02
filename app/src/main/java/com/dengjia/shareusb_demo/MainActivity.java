@@ -38,8 +38,6 @@ public class MainActivity extends AppCompatActivity {
         shareUsb = new ShareUsb();
         shareUsb.run(this);
         shareUsb.sendData("Phone's Data");
-        // 开启接收数据
-        shareUsb.enableReceiveData();
 
         shareUsb.addReceiveDataListener(new ShareUsb.ReceiveDataListener() {
             @Override
